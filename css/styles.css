@@ -1,0 +1,163 @@
+
+body{
+  font-family:  "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+}
+p{
+    color:#8f8f8f;
+}
+
+
+
+/* Heading */
+.bing-heading{
+  font-size:3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding:7% 15% ;
+}
+
+
+/* Sections */
+ .colored-section{
+   background-color: #ff4c68;
+   color:#fff;
+ }
+ .white-section{
+    background-color: #fff;
+ }
+
+/* Title section */
+
+.title-text{
+  font-size:3.5rem;
+  line-height: 1.5;
+  color:white;
+  padding-top:40px;
+}
+.title-img{
+  transform:rotate(25deg);
+  position:absolute;
+  right:20%;
+  width:20%;
+
+}
+
+
+/* Navbar */
+
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size:3rem;
+  font-weight:bold;
+}
+.navbar-nav{
+  margin-left:auto;
+  padding-right:130px;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat-light";
+}
+
+/* Download Buttons */
+
+.download-btn{
+  margin:5% 3% 0;
+}
+/* Title */
+.row{
+  padding-top:80px;
+}
+
+/* Feature */
+
+.features-icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.features-icon:hover{
+  color:#ff4c68;
+}
+
+.features-section{
+    padding:7% 15%;
+    position:relative;
+}
+
+/* Testimonials */
+
+.testimonials-section{
+  background-color: #ef8172;
+  color:#fff;
+}
+
+.testimonials-img{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.press-section{
+  background-color: #ef8172;
+  padding-bottom:3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.btn-signup{
+  width:100%;
+}
+
+/* Pricing */
+
+.pricing-section{
+  padding:100px;
+}
+@media(max-width:900px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position:static;
+    transform: rotate(0);
+  }
+}
+.price-title{
+    font-size:1.5rem;
+}
+
+/* CTA Section */
+
+.cta-section{
+  padding:100px 100px;
+}
+.cta-title{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+.footer-section{
+  padding:50px 50px;
+}
+.footer-section i{
+  padding:10px;
+
+}
+.footer-section p{
+  padding-top:30px;
+}
